@@ -27,7 +27,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "client": "npm start | npm run start --prefix ./backendz",
-    "dev": "npm run client"
+    "dev": "npm run start --prefix ./backendz"
   },
   "eslintConfig": {
     "extends": [
