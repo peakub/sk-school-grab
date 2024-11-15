@@ -25,7 +25,10 @@
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "client": "npm start",
+    "api": "npm run start --prefix ./backendz",
+    "dev": "npm run api | npm run client"
   },
   "eslintConfig": {
     "extends": [
